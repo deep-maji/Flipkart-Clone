@@ -34,6 +34,7 @@
     white-space: nowrap;
     font-size: 0.875rem;
     font-weight: 600;
+    margin-top: 0.5rem;
 }
 
 .categories-text-arrow {
@@ -136,6 +137,9 @@
 .banner-sliders {
     height: 4px;
     padding: 0.5rem 0 0.75rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .arrows-overlay {
@@ -173,13 +177,6 @@
     opacity: 0.5;
 }
 
-swiper-button-next,
-.swiper-button-prev {
-  font-size: 30px; /* Example: Increase the size to 30px */
-  /* You can also adjust the width and height if needed */
-  width: 40px;
-  height: 40px;
-}
 /* product-container */
 
 .product-div {

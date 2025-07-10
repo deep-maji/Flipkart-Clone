@@ -17,21 +17,22 @@ html,body {
     height: 100%;
 }
 
-#main-flex {
-    
+#main {
     background-color: #f1f2f4;
-    display: flex;
-    justify-content: center;
+    margin: auto;
+}
+
+#main-container {
+    background-color: #f1f2f4;
+    padding: 0.2rem 0;
+    margin: 0.5rem 1rem;
 }
 
 .container {
-    width: calc(100vw - 50px);
     max-width: var(--lg-max-width);
-    margin: 0.5rem 1rem;
+    margin: 1rem auto;
     background-color: #fff;
 }
-
-
 
 a {
     text-decoration: none;
