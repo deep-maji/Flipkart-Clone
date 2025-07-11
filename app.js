@@ -11,6 +11,5 @@ const swiper = new Swiper(".swiper", {
         el: '.banner-sliders',
         clickable: true,
     },
-})
-
+});
 
