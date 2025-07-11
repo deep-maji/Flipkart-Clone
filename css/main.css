@@ -17,7 +17,8 @@
 .categories-container {
     height: 126px;
     display: flex;
-    justify-content: center;
+    margin: 0 auto;
+    /* justify-content: center; */
     align-items: center;
     a {
         height: 126px;
@@ -29,6 +30,13 @@
 
 .categories-container::-webkit-scrollbar {
     display: none;
+}
+
+.categories-inner {
+    display: inline-flex;
+    justify-content: center; /* ✅ centers when it fits */
+    align-items: center;
+    margin: 0 auto;
 }
 
 .categories {
